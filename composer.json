@@ -1,0 +1,22 @@
+{
+    "name": "sonu-yadav1234/your-project-name",
+    "description": "A PHP project for form submission",
+    "type": "project",
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "chmod -R 755 vendor"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
