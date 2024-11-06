@@ -62,7 +62,7 @@ function sendEmail($email, $file_path) {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 587;
 
-        $mail->setFrom('noreply@yourdomain.com', 'Form Submission');
+        $mail->setFrom('sonu560139@gmail.com', 'Form Submission');
         $mail->addAddress($email); 
 
         $mail->isHTML(true);
